@@ -45,6 +45,9 @@ p {
 .white {
   color: #ffffff; }
 
+.black {
+  color: #111111; }
+
 .centered {
   text-align: center; }
 
@@ -62,6 +65,98 @@ li {
 @media only screen and (max-width: 559px) {
   body {
     font-size: 75%; } }
+
+.fixed-demo-request-container {
+  position: fixed;
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  right: 0;
+  top: 0; }
+  .fixed-demo-request-container .mask {
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: opacity 200ms;
+    -o-transition: opacity 200ms;
+    -moz-transition: opacity 200ms;
+    transition: opacity 200ms;
+    opacity: 0.6; }
+  .fixed-demo-request-container.hidden .mask {
+    opacity: 0; }
+  .fixed-demo-request-container.hidden .fixed-demo-card {
+    -webkit-transform: translateX(100%);
+       -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+         -o-transform: translateX(100%);
+            transform: translateX(100%); }
+  .fixed-demo-request-container.invisible {
+    display: none; }
+  .fixed-demo-request-container .fixed-demo-card {
+    -webkit-transition: -webkit-transform 200ms;
+    transition: -webkit-transform 200ms;
+    -o-transition: -o-transform 200ms;
+    -moz-transition: transform 200ms, -moz-transform 200ms;
+    transition: transform 200ms;
+    transition: transform 200ms, -webkit-transform 200ms, -moz-transform 200ms, -o-transform 200ms;
+    -webkit-transform: translateX(0);
+       -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+         -o-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-box-shadow: 0 0 3em #808285;
+            box-shadow: 0 0 3em #808285;
+    background-color: #ffffff;
+    position: relative;
+    float: right;
+    height: 100%; }
+  .fixed-demo-request-container .toggle, .fixed-demo-request-container .white-form-bg {
+    position: relative;
+    width: 100%; }
+  .fixed-demo-request-container .toggle {
+    background-color: #111111;
+    height: 4em; }
+    .fixed-demo-request-container .toggle .x {
+      display: inline-block;
+      position: relative;
+      height: 100%;
+      float: right; }
+      .fixed-demo-request-container .toggle .x svg {
+        margin: 1.25em 2em;
+        fill: #ffffff;
+        cursor: pointer;
+        height: 1.5em;
+        width: 1.5em; }
+        .fixed-demo-request-container .toggle .x svg:hover {
+          fill: #32c4e9; }
+  .fixed-demo-request-container .white-form-bg {
+    display: table-cell;
+    text-align: center;
+    padding: 2em;
+    width: 100%; }
+    .fixed-demo-request-container .white-form-bg .contact-field {
+      text-align: left; }
+      .fixed-demo-request-container .white-form-bg .contact-field input, .fixed-demo-request-container .white-form-bg .contact-field select {
+        font-size: 1.2em; }
+    .fixed-demo-request-container .white-form-bg .fixed-form-submit {
+      background-color: #111111;
+      display: inline-block;
+      margin: 2em auto; }
+      .fixed-demo-request-container .white-form-bg .fixed-form-submit input {
+        background-color: inherit;
+        padding: 1em 2em;
+        cursor: pointer;
+        border: none;
+        color: #ffffff;
+        font-size: 1em; }
+        .fixed-demo-request-container .white-form-bg .fixed-form-submit input:hover {
+          color: #32c4e9; }
+        .fixed-demo-request-container .white-form-bg .fixed-form-submit input:focus {
+          outline: none; }
 
 .ribbon.services .background-container {
   left: -20%; }
@@ -564,6 +659,7 @@ header {
   .button a {
     display: inline-block;
     position: relative;
+    cursor: pointer;
     margin-top: 0.6em;
     padding: 0.2em 0;
     height: 2.2em;
@@ -819,7 +915,8 @@ header {
 .ribbon .padded-container.narrow {
   max-width: 40em; }
   .ribbon .padded-container.narrow h2 {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-top: 2em; }
   .ribbon .padded-container.narrow p {
     margin-top: 0; }
 

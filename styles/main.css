@@ -31,7 +31,7 @@ body {
   margin: 0; }
 
 h1, h2, h3 {
-  color: #32c4e9;
+  color: #43a2e9;
   font-weight: 400; }
 
 h1 {
@@ -47,7 +47,7 @@ p {
   color: #808285; }
 
 .blue {
-  color: #32c4e9; }
+  color: #43a2e9; }
 
 .white {
   color: #ffffff; }
@@ -139,7 +139,7 @@ li {
         height: 1.5em;
         width: 1.5em; }
         .fixed-overlay-container .toggle .x svg:hover {
-          fill: #32c4e9; }
+          fill: #43a2e9; }
   .fixed-overlay-container .overlay-white-bg {
     display: table-cell;
     text-align: center; }
@@ -152,7 +152,7 @@ li {
   padding-bottom: 1000px;
   height: 100px; }
   .behind-the-scenes h1, .behind-the-scenes h2 {
-    color: #32c4e9; }
+    color: #43a2e9; }
   .behind-the-scenes h3 {
     color: #111111; }
   .behind-the-scenes p {
@@ -168,6 +168,7 @@ li {
       text-decoration: underline; }
 
 .ribbon.services .background-container {
+  opacity: 0.5;
   left: -20%; }
   .ribbon.services .background-container img {
     opacity: 0.5;
@@ -216,9 +217,9 @@ li {
                   transition-duration: 500ms;
           font-weight: 300; }
         .article-selector ul li .selection-name:hover span {
-          color: #32c4e9; }
+          color: #43a2e9; }
         .article-selector ul li .selection-name.active span {
-          color: #32c4e9; }
+          color: #43a2e9; }
 
 .article-container {
   position: relative;
@@ -526,7 +527,7 @@ header {
         padding: 1em;
         height: auto; }
         .buttons-container .buttons-list .drop-down-button:hover a {
-          color: #32c4e9; }
+          color: #43a2e9; }
   .nav-bar.active .nav-mask {
     visibility: visible;
     opacity: 1; }
@@ -601,7 +602,7 @@ header {
   .site-map-container .site-map div {
     padding: 0.4em 0.7em; }
   .site-map-container .site-map a:hover {
-    color: #32c4e9; }
+    color: #43a2e9; }
 
 .social-nav p {
   line-height: 4rem;
@@ -629,11 +630,11 @@ header {
     color: #ffffff;
     font-size: 1.5em; }
     .social-nav .social-logo i:hover {
-      color: #32c4e9; }
+      color: #43a2e9; }
   .social-nav .social-logo svg {
     max-height: 20px; }
   .social-nav .social-logo svg:hover path {
-    fill: #32c4e9; }
+    fill: #43a2e9; }
 
 .footer-legal div {
   padding: 1em 0; }
@@ -662,7 +663,7 @@ header {
     margin-top: 0.6em;
     padding: 0.2em 0;
     height: 2.2em;
-    border: 2px solid rgba(50, 196, 233, 0);
+    border: 2px solid rgba(67, 162, 233, 0);
     -webkit-transition: border 500ms;
     -o-transition: border 500ms;
     -moz-transition: border 500ms;
@@ -673,15 +674,15 @@ header {
       -o-transition: background-color 500ms;
       -moz-transition: background-color 500ms;
       transition: background-color 500ms;
-      background-color: #32c4e9;
+      background-color: #43a2e9;
       padding-right: 0.4em;
       padding-left: 0.4em; }
     .button a:hover {
-      border: 2px solid #32c4e9; }
+      border: 2px solid #43a2e9; }
       .button a:hover.phone, .button a:hover.bright {
-        border: 2px solid rgba(50, 196, 233, 0); }
+        border: 2px solid rgba(67, 162, 233, 0); }
       .button a:hover.bright {
-        background-color: rgba(50, 196, 233, 0.5); }
+        background-color: rgba(67, 162, 233, 0.5); }
     .button a span {
       text-transform: uppercase;
       display: inline-block;
@@ -697,7 +698,7 @@ header {
     .ribbon.dark h1, .ribbon.dark h2, .ribbon.dark h3, .ribbon.dark p, .ribbon.dark a, .ribbon.dark span {
       color: #ffffff; }
   .ribbon.hero h1 {
-    color: #32c4e9; }
+    color: #43a2e9; }
   .ribbon.hero b {
     font-weight: 400; }
   .ribbon .background-container {
@@ -772,7 +773,7 @@ header {
     margin: 0 auto;
     width: 100%; }
   .banner-content .headline-container {
-    color: #32c4e9;
+    color: #43a2e9;
     text-align: center;
     font-weight: 300; }
     .banner-content .headline-container h1 {
@@ -783,7 +784,8 @@ header {
       margin: 0 auto;
       width: 80%; }
       .banner-content .headline-container .subtitle p {
-        font-size: 1.1em; }
+        font-size: 1.1em;
+        font-weight: 400; }
       .banner-content .headline-container .subtitle span.normal {
         font-weight: 400; }
 
@@ -956,6 +958,9 @@ header {
   padding-top: 3em;
   max-width: 40em; }
 
+.solutions p {
+  font-size: 1.1em; }
+
 .text-card-container {
   margin: 0 auto;
   padding: 2em 0;
@@ -984,7 +989,7 @@ header {
     margin: 1em;
     height: 15em;
     width: 40%;
-    border-top: 3px solid #32c4e9;
+    border-top: 3px solid #43a2e9;
     -webkit-box-shadow: 0 0 15px #808285;
             box-shadow: 0 0 15px #808285; }
     .text-card-container .text-card h2 {
@@ -1092,12 +1097,12 @@ header {
       -o-transition: background-color 500ms;
       -moz-transition: background-color 500ms;
       transition: background-color 500ms;
-      background-color: #32c4e9;
+      background-color: #43a2e9;
       cursor: pointer;
       color: #ffffff;
       width: 11em; }
       .quick-demo-form .padded-input-container .submit-button:hover {
-        background-color: rgba(50, 196, 233, 0.5); }
+        background-color: rgba(67, 162, 233, 0.5); }
 
 .contact-field {
   text-align: left; }
@@ -1116,7 +1121,7 @@ header {
     color: #ffffff;
     font-size: 1em; }
     .fixed-form-submit input:hover {
-      color: #32c4e9; }
+      color: #43a2e9; }
     .fixed-form-submit input:focus {
       outline: none; }
 
@@ -1157,9 +1162,9 @@ header {
     border: 1px solid #808285;
     border-bottom: 3px solid #808285; }
     .contact-field div:active, .contact-field div[focus-within] {
-      border-bottom: 3px solid #32c4e9; }
+      border-bottom: 3px solid #43a2e9; }
     .contact-field div:active, .contact-field div:focus-within {
-      border-bottom: 3px solid #32c4e9; }
+      border-bottom: 3px solid #43a2e9; }
     .contact-field div input, .contact-field div select {
       border: none; }
     .contact-field div textarea {
@@ -1189,9 +1194,9 @@ header {
     right: 0;
     top: 0; }
   .contact-field .select-box[focus-within]:after {
-    color: #32c4e9; }
+    color: #43a2e9; }
   .contact-field .select-box:focus-within:after {
-    color: #32c4e9; }
+    color: #43a2e9; }
   .contact-field.message div input {
     border: 1px solid #808285;
     padding-bottom: 10em; }
@@ -1200,7 +1205,7 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #32c4e9;
+  background-color: #43a2e9;
   width: 100%; }
   .submit-container input {
     background-color: #111111;
@@ -1211,9 +1216,9 @@ header {
     height: 100%;
     width: 100%; }
     .submit-container input:hover {
-      color: #32c4e9; }
+      color: #43a2e9; }
     .submit-container input:focus {
-      color: #32c4e9;
+      color: #43a2e9;
       outline: none; }
 
 .section {

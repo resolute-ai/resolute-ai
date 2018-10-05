@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _partials_global_data_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/global-data.json */ \"./src/partials/global-data.json\");\nvar _partials_global_data_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./partials/global-data.json */ \"./src/partials/global-data.json\", 1);\n/* harmony import */ var _layouts_default_hbs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layouts/default.hbs */ \"./src/layouts/default.hbs\");\n/* harmony import */ var _layouts_default_hbs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_layouts_default_hbs__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _pages_index_hbs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/index.hbs */ \"./src/pages/index.hbs\");\n/* harmony import */ var _pages_index_hbs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pages_index_hbs__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _pages_api_hbs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/api.hbs */ \"./src/pages/api.hbs\");\n/* harmony import */ var _pages_api_hbs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_pages_api_hbs__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _pages_blog_hbs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/blog.hbs */ \"./src/pages/blog.hbs\");\n/* harmony import */ var _pages_blog_hbs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_pages_blog_hbs__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _pages_contact_us_hbs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/contact-us.hbs */ \"./src/pages/contact-us.hbs\");\n/* harmony import */ var _pages_contact_us_hbs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pages_contact_us_hbs__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _pages_request_demo_hbs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/request-demo.hbs */ \"./src/pages/request-demo.hbs\");\n/* harmony import */ var _pages_request_demo_hbs__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_pages_request_demo_hbs__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _pages_sign_in_hbs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/sign-in.hbs */ \"./src/pages/sign-in.hbs\");\n/* harmony import */ var _pages_sign_in_hbs__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_pages_sign_in_hbs__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _pages_solutions_hbs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/solutions.hbs */ \"./src/pages/solutions.hbs\");\n/* harmony import */ var _pages_solutions_hbs__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_pages_solutions_hbs__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _pages_products_hbs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/products.hbs */ \"./src/pages/products.hbs\");\n/* harmony import */ var _pages_products_hbs__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_pages_products_hbs__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _scripts_selectArticle_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./scripts/selectArticle.js */ \"./src/scripts/selectArticle.js\");\n/* harmony import */ var _scripts_toggleBurger_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./scripts/toggleBurger.js */ \"./src/scripts/toggleBurger.js\");\n/* harmony import */ var _scripts_navBarBG_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./scripts/navBarBG.js */ \"./src/scripts/navBarBG.js\");\n// callscreen.us entry point\n\n\n\n\n\n\n\n\n\n\n\n\n\nwindow.selectArticle = _scripts_selectArticle_js__WEBPACK_IMPORTED_MODULE_10__[\"default\"];\nwindow.toggleBurger = _scripts_toggleBurger_js__WEBPACK_IMPORTED_MODULE_11__[\"default\"];\nwindow.onload = _scripts_navBarBG_js__WEBPACK_IMPORTED_MODULE_12__[\"default\"];\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _partials_global_data_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./partials/global-data.json */ \"./src/partials/global-data.json\");\nvar _partials_global_data_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./partials/global-data.json */ \"./src/partials/global-data.json\", 1);\n/* harmony import */ var _layouts_default_hbs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layouts/default.hbs */ \"./src/layouts/default.hbs\");\n/* harmony import */ var _layouts_default_hbs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_layouts_default_hbs__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _pages_index_hbs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/index.hbs */ \"./src/pages/index.hbs\");\n/* harmony import */ var _pages_index_hbs__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pages_index_hbs__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _pages_api_hbs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/api.hbs */ \"./src/pages/api.hbs\");\n/* harmony import */ var _pages_api_hbs__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_pages_api_hbs__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _pages_request_demo_hbs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/request-demo.hbs */ \"./src/pages/request-demo.hbs\");\n/* harmony import */ var _pages_request_demo_hbs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_pages_request_demo_hbs__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _pages_sign_in_hbs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/sign-in.hbs */ \"./src/pages/sign-in.hbs\");\n/* harmony import */ var _pages_sign_in_hbs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pages_sign_in_hbs__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _pages_solutions_hbs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/solutions.hbs */ \"./src/pages/solutions.hbs\");\n/* harmony import */ var _pages_solutions_hbs__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_pages_solutions_hbs__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _pages_products_hbs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/products.hbs */ \"./src/pages/products.hbs\");\n/* harmony import */ var _pages_products_hbs__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_pages_products_hbs__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _pages_about_hbs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/about.hbs */ \"./src/pages/about.hbs\");\n/* harmony import */ var _pages_about_hbs__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_pages_about_hbs__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _scripts_toggleFixedOverlay_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./scripts/toggleFixedOverlay.js */ \"./src/scripts/toggleFixedOverlay.js\");\n/* harmony import */ var _scripts_selectArticle_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./scripts/selectArticle.js */ \"./src/scripts/selectArticle.js\");\n/* harmony import */ var _scripts_toggleBurger_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./scripts/toggleBurger.js */ \"./src/scripts/toggleBurger.js\");\n/* harmony import */ var _scripts_navBarBG_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./scripts/navBarBG.js */ \"./src/scripts/navBarBG.js\");\n// callscreen.us entry point\n\n\n\n\n\n\n\n\n\n\n\n\n\nwindow.toggleFixedOverlay = _scripts_toggleFixedOverlay_js__WEBPACK_IMPORTED_MODULE_9__[\"default\"];\nwindow.selectArticle = _scripts_selectArticle_js__WEBPACK_IMPORTED_MODULE_10__[\"default\"];\nwindow.toggleBurger = _scripts_toggleBurger_js__WEBPACK_IMPORTED_MODULE_11__[\"default\"];\nwindow.onload = _scripts_navBarBG_js__WEBPACK_IMPORTED_MODULE_12__[\"default\"];\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -109,6 +109,17 @@ eval("// This will allow webpack to watch the files and re-run respective plugin
 
 /***/ }),
 
+/***/ "./src/pages/about.hbs":
+/*!*****************************!*\
+  !*** ./src/pages/about.hbs ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// This will allow webpack to watch the files and re-run respective plugins for Assemble\n\n//# sourceURL=webpack:///./src/pages/about.hbs?");
+
+/***/ }),
+
 /***/ "./src/pages/api.hbs":
 /*!***************************!*\
   !*** ./src/pages/api.hbs ***!
@@ -117,28 +128,6 @@ eval("// This will allow webpack to watch the files and re-run respective plugin
 /***/ (function(module, exports) {
 
 eval("// This will allow webpack to watch the files and re-run respective plugins for Assemble\n\n//# sourceURL=webpack:///./src/pages/api.hbs?");
-
-/***/ }),
-
-/***/ "./src/pages/blog.hbs":
-/*!****************************!*\
-  !*** ./src/pages/blog.hbs ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("// This will allow webpack to watch the files and re-run respective plugins for Assemble\n\n//# sourceURL=webpack:///./src/pages/blog.hbs?");
-
-/***/ }),
-
-/***/ "./src/pages/contact-us.hbs":
-/*!**********************************!*\
-  !*** ./src/pages/contact-us.hbs ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("// This will allow webpack to watch the files and re-run respective plugins for Assemble\n\n//# sourceURL=webpack:///./src/pages/contact-us.hbs?");
 
 /***/ }),
 
@@ -241,6 +230,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return toggleBurger; });\nfunction toggleBurger() {\n  const navBar = document.getElementById(\"navbar\"); // const burger = document.getElementById(\"navbar-burger\");\n  // const links = document.getElementById(\"navbar-links\");\n\n  if (navBar.classList.contains(\"active\")) {\n    navBar.classList.remove(\"active\"); // burger.classList.remove(\"active\");\n    // links.classList.remove(\"active\");\n\n    return;\n  }\n\n  navBar.classList.add(\"active\"); // burger.classList.add(\"active\");\n  // links.classList.add(\"active\");\n}\n\n//# sourceURL=webpack:///./src/scripts/toggleBurger.js?");
+
+/***/ }),
+
+/***/ "./src/scripts/toggleFixedOverlay.js":
+/*!*******************************************!*\
+  !*** ./src/scripts/toggleFixedOverlay.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return toggleFixedOverlay; });\nconst asNumber = h => typeof h === \"number\" ? h : Number(h.replace(\"px\", \"\"));\n\nfunction toggleFixedOverlay(id, page, fixedHeight) {\n  var elemId = id || \"fixed-overlay-container\";\n  var fixedDemoRequest = document.getElementById(elemId);\n  var isInvisible = fixedDemoRequest.classList.contains(\"invisible\");\n\n  if (isInvisible) {\n    // do not use fixed side request on smartphones\n    if (document.body.clientWidth < 560) {\n      var subdir = \"/\" + (page || \"request-demo\");\n      window.location.href = window.location.origin + subdir;\n      return;\n    }\n\n    window.setTimeout(function () {\n      fixedDemoRequest.classList.remove(\"hidden\");\n    }, 0);\n    fixedDemoRequest.classList.remove(\"invisible\");\n  } else {\n    fixedDemoRequest.addEventListener(\"transitionend\", oneTimeMakeInvisible);\n    fixedDemoRequest.classList.add(\"hidden\");\n  }\n\n  function oneTimeMakeInvisible() {\n    fixedDemoRequest.removeEventListener(\"transitionend\", oneTimeMakeInvisible);\n    fixedDemoRequest.classList.add(\"invisible\");\n  }\n}\n\n//# sourceURL=webpack:///./src/scripts/toggleFixedOverlay.js?");
 
 /***/ })
 

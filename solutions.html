@@ -182,11 +182,12 @@
 
       
   <div class="quick-demo-form">
-    <form id="email-form" name="email-form" data-name="Email Form" class="form">
+    <!-- <form id="quick-email-form" name="email-form" data-name="Email Form" method="post" action="https://script.google.com/macros/s/AKfycbx3MCgjDdO77y7LvmYvNuJQItYx5CLLjN1BnxZubA/exec"> -->
+    <form id="quick-email-form" name="email-form" data-name="Email Form" onsubmit="return false;">
       <div class="padded-input-container">
         <div class="input-wrapper">
           <input type="text" class="email-input" maxlength="256" name="email" data-name="email" placeholder="Enter your email" id="email" required="true">
-          <input type="submit" value="REQUEST A DEMO" data-wait="Please wait..." class="submit-button">
+          <input class="submit-button" type="submit" value="REQUEST A DEMO" onclick="submitForm('quick-email-form')">
         </div>
       </div>
     </form>
@@ -303,7 +304,7 @@
           </div>
         </div>
         <div class="card">
-          <div class="img-container" style="background-image: url('/assets/comp_intel.svg')"></div>
+          <div class="img-container" style="background-image: url('/assets/competitive_intel.gif')"></div>
 
           <div class="card-message-container">
             <div class="card-message">
@@ -313,7 +314,7 @@
           </div>
         </div>
         <div class="card">
-          <div class="img-container" style="background-image: url('/assets/Heatmaptest.svg')"></div>
+          <div class="img-container" style="background-image: url('/assets/heatmaptest.gif')"></div>
 
           <div class="card-message-container">
             <div class="card-message">
@@ -323,7 +324,7 @@
           </div>
         </div>
         <div class="card">
-          <div class="img-container" style="background-image: url('/assets/comp_intel.svg')"></div>
+          <div class="img-container" style="background-image: url('/assets/competitive_intel.gif')"></div>
 
           <div class="card-message-container">
             <div class="card-message">
@@ -446,7 +447,8 @@
     
         <div class="overlay-bg">
           
-  <form class="contact-form">
+  <form id="side-demo-request-form" class="contact-form" onsubmit="return false;">
+
     <div class="contact-field">
       <label for="name">Name*</label>
       <div>
@@ -471,14 +473,14 @@
     <div class="contact-field">
       <label for="company">Company Name*</label>
       <div>
-        <input type="text" name="company" placeholder="Comany">
+        <input type="text" name="company" placeholder="Comany" required>
       </div>
     </div>
 
     <div class="contact-field">
       <label for="country">Country</label>
       <div class="select-box">
-        <select type="text" name="country" required>
+        <select type="text" name="country">
           <option value="United States" selected>United States</option>
           <option value="Canada">Canada</option>
           <option value="Afghanistan">Afghanistan</option>
@@ -726,7 +728,7 @@
     </div>
 
       <div class="fixed-form-submit">
-        <input type="submit" value="REQUEST A DEMO" />
+        <input class="submit-button" type="submit" value="REQUEST A DEMO" onclick="submitForm('side-demo-request-form')" />
       </div>
   </form>
 

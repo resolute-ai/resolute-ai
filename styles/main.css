@@ -1107,11 +1107,16 @@ header {
       -moz-transition: background-color 500ms;
       transition: background-color 500ms;
       background-color: #31bde6;
-      cursor: pointer;
       color: #ffffff;
+      cursor: pointer;
       width: 11em; }
       .quick-demo-form .padded-input-container .submit-button:hover {
         background-color: rgba(50, 196, 233, 0.5); }
+
+.submit-button.disabled,
+.submit-button.disabled:hover {
+  background-color: #808285 !important;
+  color: #ffffff !important; }
 
 .contact-field {
   text-align: left; }

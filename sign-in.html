@@ -259,7 +259,8 @@
     
         <div class="overlay-bg">
           
-  <form class="contact-form">
+  <form id="side-demo-request-form" class="contact-form" onsubmit="return false;">
+
     <div class="contact-field">
       <label for="name">Name*</label>
       <div>
@@ -284,14 +285,14 @@
     <div class="contact-field">
       <label for="company">Company Name*</label>
       <div>
-        <input type="text" name="company" placeholder="Comany">
+        <input type="text" name="company" placeholder="Comany" required>
       </div>
     </div>
 
     <div class="contact-field">
       <label for="country">Country</label>
       <div class="select-box">
-        <select type="text" name="country" required>
+        <select type="text" name="country">
           <option value="United States" selected>United States</option>
           <option value="Canada">Canada</option>
           <option value="Afghanistan">Afghanistan</option>
@@ -539,7 +540,7 @@
     </div>
 
       <div class="fixed-form-submit">
-        <input type="submit" value="REQUEST A DEMO" />
+        <input class="submit-button" type="submit" value="REQUEST A DEMO" onclick="submitForm('side-demo-request-form')" />
       </div>
   </form>
 

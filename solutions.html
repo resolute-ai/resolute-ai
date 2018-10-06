@@ -63,13 +63,26 @@
                   <li class="list-button">
                     <div class="button">
                       <a
-                        href="/products"
+                        href="/how-it-works"
                         
                         
                         
                         
                       >
-                        <span>Products</span>
+                        <span>How It Works</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-button">
+                    <div class="button">
+                      <a
+                        href="/about"
+                        
+                        
+                        
+                        
+                      >
+                        <span>About Us</span>
                       </a>
                     </div>
                   </li>
@@ -117,7 +130,10 @@
                     <a href="/solutions">Solutions</a>
                   </li>
                   <li class="drop-down-button">
-                    <a href="/products">Products</a>
+                    <a href="/how-it-works">How It Works</a>
+                  </li>
+                  <li class="drop-down-button">
+                    <a href="/about">About Us</a>
                   </li>
                   <li class="drop-down-button">
                     <a href="https://docs.resoluteinnovation.com/api/v1/">api</a>
@@ -145,8 +161,10 @@
     </header>
 
     <div class="hero ribbon dark solutions">
-  <div class="background-container">
-  
+  <div
+    class="background-container"
+    
+  >
         <video autoplay="true" loop="true" muted="true">
         <source src="https://uploads-ssl.webflow.com/5b9041706ea0163b74c8fc98/5b92de0a7572f509b13794a9_TheDigitalM - Particle Background_1-transcode.mp4">
       </video>
@@ -179,19 +197,91 @@
 
 </div>
 
+<div class="ribbon solutions">
+  <div class="padded-container narrow">
+    <h2 class="centered black">Neural Data Fabric</h2>
+    <p class="centered">
+      Resolute ingests both structured and unstructured documents and assigns unique fingerprints to each one, to find similarities and connections across petabytes of data.
+    </p>
+    <div class="button centered">
+      <a
+        
+        
+        onclick="toggleFixedOverlay()"
+        class="bright"
+        
+      >
+        <span>See it in action</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="ribbon">
+  <div class="padded-container">
+
+    <div class="text-card-container">
+        <div class="text-card">
+          <h2>Neural Data Fabric</h2>
+          <p>Resolute ingests both structured and unstructured documents and assigns unique fingerprints to each one, to find similarities and connections across petabytes of data.</p>
+        </div>
+        <div class="text-card">
+          <h2>Multiple Data Sources</h2>
+          <p>From patents, companies, scientific journal publications and so much more, Resolute analyzes multiple external data sources -- as well out-of-the box integration for your own data, structured or unstructured.</p>
+        </div>
+        <div class="text-card">
+          <h2>Cognitive Search</h2>
+          <p>Search across all your data at once. Resolute search and analytics tools makes it easier than ever to find and interpret your data.</p>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="ribbon brands-ribbon gray">
+  <div class="padded-container">
+
+    
+
+    <div class="brand-container">
+        <div id="beiersdorf-logo" class="logo-container">
+          <img src="/assets/Beiersdorf_Logo.svg" alt="" />
+        </div>
+        <div id="estee-lauder-logo" class="logo-container">
+          <img src="/assets/Estee-Lauder-Logo.svg" alt="" />
+        </div>
+        <div id="honeywell-logo" class="logo-container">
+          <img src="/assets/Honeywell_logo.svg" alt="" />
+        </div>
+        <div id="syngenta-logo" class="logo-container">
+          <img src="/assets/Syngenta_Logo.svg" alt="" />
+        </div>
+        <div id="huawei-logo" class="logo-container">
+          <img src="/assets/Huawei.svg" alt="" />
+        </div>
+        <div id="wacker-chemie-logo" class="logo-container">
+          <img src="/assets/Wacker_Chemie.svg" alt="" />
+        </div>
+    </div>
+
+  </div>
+</div>
 
 <!-- match background colors while background image is not final -->
-<div class="ribbon" style="background-color: #f6f6f6;">
-  <h1> Enterprise solutions </h1>
+<div class="ribbon">
+  <div
+    class="background-container bottom"
+     style="background-image: url('/assets/nyc-skyline.svg')" 
+  >
+      <div id=></div>
+
+  </div>
 
   <div class="padded-container">
-    <div class="background-container">
-    
-        <img src="https://png.pngtree.com/element_origin_min_pic/16/03/20/1656e92cfb0535a.jpg" alt=""/>
 
-    </div>
+    <h1> Enterprise solutions </h1>
+
     <div class="card-container">
-
         <div class="card">
           <div class="img-container" style="background-image: url('/assets/sunburst.gif')"></div>
 
@@ -242,7 +332,6 @@
             </div>
           </div>
         </div>
-
     </div>
 
       <div class="button centered">
@@ -258,171 +347,8 @@
       </div>
 
   </div>
-
 </div>
 
-<div class="ribbon brands-ribbon gray">
-  <div class="padded-container">
-
-    
-
-    <div class="brand-container">
-        <div id="beiersdorf-logo" class="logo-container">
-          <img src="/assets/Beiersdorf_Logo.svg" alt="" />
-        </div>
-        <div id="estee-lauder-logo" class="logo-container">
-          <img src="/assets/Estee-Lauder-Logo.svg" alt="" />
-        </div>
-        <div id="honeywell-logo" class="logo-container">
-          <img src="/assets/Honeywell_logo.svg" alt="" />
-        </div>
-        <div id="syngenta-logo" class="logo-container">
-          <img src="/assets/Syngenta_Logo.svg" alt="" />
-        </div>
-        <div id="huawei-logo" class="logo-container">
-          <img src="/assets/Huawei.svg" alt="" />
-        </div>
-        <div id="wacker-chemie-logo" class="logo-container">
-          <img src="/assets/Wacker_Chemie.svg" alt="" />
-        </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="ribbon how-it-works">
-  <div class="padded-container">
-
-    <h1> Use Cases </h1>
-
-    <div class="flex-columns">
-      <div class="how-column">
-        <div class="icon-container">
-          <img src=/assets/distribution.svg alt="" />
-        </div>
-
-        <h3> Neural Data Fabric </h3>
-        <hr/>
-        <p class="small"> Resolute ingests both structured and unstructured documents and assigns unique fingerprints to each one, to find similarities and connections across petabytes of data. </p>
-      </div>
-      <div class="how-column">
-        <div class="icon-container">
-          <img src=/assets/documents-symbol.svg alt="" />
-        </div>
-
-        <h3> Multiple Data Sources </h3>
-        <hr/>
-        <p class="small"> From patents, companies, scientific journal publications and so much more, Resolute analyzes multiple external data sources -- as well out-of-the box integration for your own data, structured or unstructured. </p>
-      </div>
-      <div class="how-column">
-        <div class="icon-container">
-          <img src=/assets/search.svg alt="" />
-        </div>
-
-        <h3> Cognitive Search </h3>
-        <hr/>
-        <p class="small"> Search across all your data at once. Resolute search and analytics tools makes it easier than ever to find and interpret your data. </p>
-      </div>
-    </div>
-
-    <div class="button centered">
-      <a
-        
-        
-        onclick="toggleFixedOverlay(&#x27;fixed-overlay-how-it-works&#x27;, &#x27;solutions&#x27;, true)"
-        class="bright"
-        
-      >
-        <span>learn more</span>
-      </a>
-    </div>
-
-  </div>
-</div>
-
-<div id="fixed-overlay-how-it-works" class="fixed-overlay-container hidden invisible">
-
-  <div class="fixed-overlay-mask" onclick="toggleFixedOverlay('fixed-overlay-how-it-works', 'solutions')"></div>
-
-  <div class="fixed-overlay-card">
-    <div class="toggle">
-      <div class="x" onclick="toggleFixedOverlay('fixed-overlay-how-it-works', 'solutions')">
-        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        	 width="612px" height="612px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
-        	<g id="cross">
-      			<polygon points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397
-        				306,341.411 576.521,611.397 612,575.997 341.459,306.011"/>
-          </g>
-        </svg>
-      </div>
-    </div>
-
-    <div class="overlay-white-bg">
-      <div class="behind-the-scenes overlay">
-      
-        <h1 class="left"> Behind the Scenes </h1>
-      
-      
-        <h2> Neural Data Fabric </h2>
-        <p>
-        Using state-of-the-art deep learning techniques, Resolute relates and enhances unconnected data sets by automatically capturing similarity and ranking, allowing you get critical insights from your data. Resolute reads and understands the context of each document, learning what terms are the most important and which aren’t, making meaningful connections for your data easier than ever.
-        </p><p>
-        Resolute enables users to quickly search and perform analytics across multiple domains and various data types by assigning a neural fingerprint to each document, which allows for downstream benefits such as dataset mapping and semantic search capabilities helping our users find insights and make the most sense out of their data.
-        </p>
-      
-      
-        <h2> Data sources </h2>
-      
-        <p><b> Patents </b></p>
-        <p>
-          Total coverage from over 104 Patent offices, with over 59 million patent families from as early as the 1900s. Full text data from multiple sources including the USPTO, WIPO, EP, AT, CA, CH GB and ES.
-        </p>
-      
-        <p><b> Companies </b></p>
-        <p>
-          Auto-generated snapshots of more than 2.5 million companies, using venture capital data and mined patent and financial document information.
-        </p>
-      
-        <p><b> Scientific Publications </b></p>
-        <p>
-          Full text and abstracts for more than 28 million scientific publications including multiple areas of research such as biomedical, engineering, chemicals and more from over 8000 journals.
-        </p>
-      
-        <p><b> Tech Transfer </b></p>
-        <p>
-          More than 50,000 early and late stage technologies available for licensing from over 1000 research institutions and universities from around the world.
-        </p>
-      
-        <p><b> Grants </b></p>
-        <p>
-          Government awarded grants including abstract, contract details, and business information for more than 1 million grants.
-        </p>
-      
-        <p><b> Clinical Trials </b></p>
-        <p>
-          Complete data on conditions, interventions, outcomes and more for over 370,000 clinical trials, completed and ongoing.
-        </p>
-      
-        <p><b> Custom Data </b></p>
-        <p>
-          Any document or data source, structured or unstructured, can be ingested by Resolute. Some examples include customer feedback, lab data, technology profiles, competitive research reports. Integration also included for 3rd party data providers such as Dropbox, Google Drive and Sharepoint.
-        </p>
-      
-        <h2> Cognitive Search </h2>
-        <p>
-        Resolute offers a comprehensive suite of analytics, visualizations, and AI-guided mining tools out-of-the-box. With our deep learning algorithms ingesting your data, searches become more personalized allowing for faster retrieval and analysis. Additionally, automatic tags and categories make navigating your data easier than ever.
-        </p>
-      
-        <p>
-        For more technical questions,
-        please contact <a href="mailto:team@resolute.ai"><span>team@resolute.ai</span></a>.
-        </p>
-      
-      </div>
-    </div>
-  </div>
-
-</div>
 
 
     <div class="ribbon footer">
@@ -437,13 +363,10 @@
             <div class="site-map distributed-flex">
               <div>
                 <a href="mailto:team@resolute.ai"><span>Contact Us</span></a>
-                <!-- <a href="tel:+18886453090"><span>1-888-645-3090</span></a> -->
-              <!-- </div><div>
-                <a href="/contact-us"><span>Contact Us</span></a> -->
               </div><div>
                 <a href="/solutions"><span>Solutions</span></a>
               </div><div>
-                <a href="/products"><span>Products</span></a>
+                <a href="/how-it-works"><span>How It Works</span></a>
               </div><div>
                 <a href="/about"><span>About Us</span></a>
               </div><div>
@@ -521,7 +444,7 @@
           </div>
         </div>
     
-        <div class="overlay-white-bg">
+        <div class="overlay-bg">
           
   <form class="contact-form">
     <div class="contact-field">

@@ -63,13 +63,26 @@
                   <li class="list-button">
                     <div class="button">
                       <a
-                        href="/products"
+                        href="/how-it-works"
                         
                         
                         
                         
                       >
-                        <span>Products</span>
+                        <span>How It Works</span>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="list-button">
+                    <div class="button">
+                      <a
+                        href="/about"
+                        
+                        
+                        
+                        
+                      >
+                        <span>About Us</span>
                       </a>
                     </div>
                   </li>
@@ -117,7 +130,10 @@
                     <a href="/solutions">Solutions</a>
                   </li>
                   <li class="drop-down-button">
-                    <a href="/products">Products</a>
+                    <a href="/how-it-works">How It Works</a>
+                  </li>
+                  <li class="drop-down-button">
+                    <a href="/about">About Us</a>
                   </li>
                   <li class="drop-down-button">
                     <a href="https://docs.resoluteinnovation.com/api/v1/">api</a>
@@ -168,7 +184,7 @@
                 </div>
               </div>
               <p class="blue thin">
-                Resolute's AI search and analytics platform offers a powerful enterprise IT infrastructure solution that connects, integrates, and enriches all types of structured and unstructured data sources.
+                Resolute makes searching and analyzing your data easy.
               </p>
             </div>
           </div>
@@ -196,7 +212,7 @@
   <div class="padded-container">
 
     <div class="content-wrapper">
-       <h1>Connect Data with Resolute for</h1> 
+       <h1>Connect Data for</h1> 
 
       <div class="article-selector">
         <ul>
@@ -297,9 +313,11 @@
 </div>
 
 <div class="ribbon dark services">
-    <div class="background-container">
-    
-        <img src="/assets/network.svg" alt=""/>
+    <div
+      class="background-container"
+       style="background-image: url('/assets/network.svg')" 
+    >
+        <div id=ip-analysis></div>
 
     </div>
 
@@ -400,13 +418,13 @@
 
     <div class="button centered">
       <a
-        href="/assets/pdf/resolute_for_pharma.pdf"
-         download 
         
+        
+        onclick="toggleFixedOverlay()"
         class="bright"
         
       >
-        <span>Get a PDF</span>
+        <span>More info</span>
       </a>
     </div>
 
@@ -502,19 +520,18 @@
     <div class="overlay-white-bg">
       <div class="behind-the-scenes overlay">
       
-        <h1 class="left"> Behind the Scenes </h1>
       
+            <h1> Behind the Scenes </h1>
       
-        <h2> Neural Data Fabric </h2>
-        <p>
+          <h2> Neural Data Fabric </h2>
+  <p>
         Using state-of-the-art deep learning techniques, Resolute relates and enhances unconnected data sets by automatically capturing similarity and ranking, allowing you get critical insights from your data. Resolute reads and understands the context of each document, learning what terms are the most important and which aren’t, making meaningful connections for your data easier than ever.
         </p><p>
         Resolute enables users to quickly search and perform analytics across multiple domains and various data types by assigning a neural fingerprint to each document, which allows for downstream benefits such as dataset mapping and semantic search capabilities helping our users find insights and make the most sense out of their data.
         </p>
       
-      
         <h2> Data sources </h2>
-      
+
         <p><b> Patents </b></p>
         <p>
           Total coverage from over 104 Patent offices, with over 59 million patent families from as early as the 1900s. Full text data from multiple sources including the USPTO, WIPO, EP, AT, CA, CH GB and ES.
@@ -550,15 +567,17 @@
           Any document or data source, structured or unstructured, can be ingested by Resolute. Some examples include customer feedback, lab data, technology profiles, competitive research reports. Integration also included for 3rd party data providers such as Dropbox, Google Drive and Sharepoint.
         </p>
       
-        <h2> Cognitive Search </h2>
-        <p>
-        Resolute offers a comprehensive suite of analytics, visualizations, and AI-guided mining tools out-of-the-box. With our deep learning algorithms ingesting your data, searches become more personalized allowing for faster retrieval and analysis. Additionally, automatic tags and categories make navigating your data easier than ever.
-        </p>
+          <h2> Cognitive Search </h2>
+
+          <p>
+          Resolute offers a comprehensive suite of analytics, visualizations, and AI-guided mining tools out-of-the-box. With our deep learning algorithms ingesting your data, searches become more personalized allowing for faster retrieval and analysis. Additionally, automatic tags and categories make navigating your data easier than ever.
+          </p>
       
-        <p>
-        For more technical questions,
-        please contact <a href="mailto:team@resolute.ai"><span>team@resolute.ai</span></a>.
-        </p>
+          <p>
+          For more technical questions,
+          please contact <a href="mailto:team@resolute.ai"><span>team@resolute.ai</span></a>.
+          </p>
+      
       
       </div>
     </div>
@@ -567,8 +586,10 @@
 </div>
 
 <div class="ribbon dark connect-data">
-  <div class="background-container">
-  
+  <div
+    class="background-container"
+    
+  >
         <video autoplay="true" loop="true" muted="true">
         <source src="/assets/ps4-waves.mp4">
       </video>
@@ -619,7 +640,6 @@
       idx = (idx + 1) % heroTerms.length;
       heroTermText.innerText = heroTerms[idx];
       heroTermElem.classList.remove("waiting");
-      console.log(idx, heroTerms[idx]);
     }
 
     window.setTimeout(leaveCB, transitionTime + termTimeout);
@@ -656,13 +676,10 @@
             <div class="site-map distributed-flex">
               <div>
                 <a href="mailto:team@resolute.ai"><span>Contact Us</span></a>
-                <!-- <a href="tel:+18886453090"><span>1-888-645-3090</span></a> -->
-              <!-- </div><div>
-                <a href="/contact-us"><span>Contact Us</span></a> -->
               </div><div>
                 <a href="/solutions"><span>Solutions</span></a>
               </div><div>
-                <a href="/products"><span>Products</span></a>
+                <a href="/how-it-works"><span>How It Works</span></a>
               </div><div>
                 <a href="/about"><span>About Us</span></a>
               </div><div>
@@ -740,7 +757,7 @@
           </div>
         </div>
     
-        <div class="overlay-white-bg">
+        <div class="overlay-bg">
           
   <form class="contact-form">
     <div class="contact-field">

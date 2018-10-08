@@ -185,12 +185,15 @@
 
     
   <div class="quick-demo-form">
-    <!-- <form id="quick-email-form" name="email-form" data-name="Email Form" method="post" action="https://script.google.com/macros/s/AKfycbx3MCgjDdO77y7LvmYvNuJQItYx5CLLjN1BnxZubA/exec"> -->
     <form id="quick-email-form" name="email-form" data-name="Email Form" onsubmit="return false;">
       <div class="padded-input-container">
         <div class="input-wrapper">
           <input type="text" class="email-input" maxlength="256" name="email" data-name="email" placeholder="Enter your email" id="email" required="true">
           <input class="submit-button" type="submit" value="REQUEST A DEMO" onclick="submitForm('quick-email-form')">
+          <div class="sent-overlay hidden">
+            <span class="centered">Sent!</span>
+            <i class="check fas fa-check"></i>
+          </div>
         </div>
       </div>
     </form>
@@ -653,6 +656,12 @@
       <div class="fixed-form-submit">
         <input class="submit-button" type="submit" value="REQUEST A DEMO" onclick="submitForm('side-demo-request-form')" />
       </div>
+
+    <div class="sent-overlay hidden">
+      <span class="centered">Sent!</span>
+      <i class="check fas fa-check"></i>
+    </div>
+
   </form>
 
     </div>

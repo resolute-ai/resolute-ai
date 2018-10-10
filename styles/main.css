@@ -647,7 +647,9 @@ section {
 
 @media only screen and (max-width: 559px) {
   section .padded-container {
-    padding: 0 2em; } }
+    padding: 0 2em; }
+  section .background-container video {
+    display: none; } }
 
 .logo {
   display: inline-block; }

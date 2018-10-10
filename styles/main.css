@@ -630,6 +630,8 @@ section {
     section .background-container video, section .background-container div {
       min-height: 100%;
       min-width: 100%; }
+    section .background-container.translucent {
+      opacity: 0.2; }
   section.dark {
     background-color: #0d0d0d; }
     section.dark h1, section.dark h2, section.dark h3, section.dark p, section.dark a, section.dark span {

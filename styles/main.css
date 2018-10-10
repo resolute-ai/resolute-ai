@@ -652,10 +652,17 @@ section {
     display: none; } }
 
 .logo {
-  display: inline-block; }
+  display: inline-block;
+  height: 100%; }
   .logo img {
-    padding: 1.4rem 0;
-    height: 1.2rem; }
+    position: relative;
+    height: 1.2rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%); }
 
 .featured-term {
   margin-bottom: 2em; }

@@ -491,7 +491,6 @@ header {
           flex-flow: row wrap; }
 
 .widgets-container .widget-column {
-  padding-top: 2em;
   max-width: 45%; }
   .widgets-container .widget-column .widget-column-header {
     height: 4rem; }
@@ -627,6 +626,8 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
+    section .background-container.video {
+      background-size: 0; }
     section .background-container video, section .background-container div {
       min-height: 100%;
       min-width: 100%; }
@@ -650,8 +651,10 @@ section {
 @media only screen and (max-width: 559px) {
   section .padded-container {
     padding: 0 2em; }
-  section .background-container video {
-    display: none; } }
+  section .background-container.video {
+    background-size: cover; }
+    section .background-container.video video {
+      display: none; } }
 
 .logo {
   display: inline-block;

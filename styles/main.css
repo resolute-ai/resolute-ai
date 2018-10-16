@@ -811,6 +811,8 @@ section {
       height: 19em; }
     .article-container .article .graphic-text.fixed-height.no-img .feature-graphic {
       height: 0; }
+    .article-container .article .graphic-text.translucent .feature-graphic img {
+      opacity: 0.8; }
 
 section .background-container.shift-left {
   background-size: contain;

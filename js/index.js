@@ -93,7 +93,7 @@
 /*! exports provided: author, keywords, default */
 /***/ (function(module) {
 
-eval("module.exports = {\"author\":\"Resolute Innovation\",\"keywords\":[\"enterprise search\",\"scientific data\",\"deep learning\",\"technology transfer\"]};\n\n//# sourceURL=webpack:///./src/components/global-data.json?");
+eval("module.exports = {\"author\":\"Resolute.AI\",\"keywords\":[\"enterprise search\",\"scientific data\",\"deep learning\",\"technology transfer\"]};\n\n//# sourceURL=webpack:///./src/components/global-data.json?");
 
 /***/ }),
 
